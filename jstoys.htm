@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>There is no spork.</title>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+	<script src="jquery.min.js"></script>
+	<script src="jquery.color-2.1.0.js"></script>
+	<script type="text/javascript" src="jstoys.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	
+
+</head>
+<body>
+	<div id="bodycontainer">
+		<h1>Some CSS/Javascript/Jquery doodads</h1>
+		
+		<p>Lately I've been having fun with creating colorful HTML without the use of art images (code only). I was playing around with different ways of using random colors on CSS elements. Here's some of my toys. (Uses Jquery and jquery Color).  I like the effect of Jquery's color animate, which transitions nicely between two colors. Yes, I know that jquery can be resource heavy, especially if you're downloading the library just for one little effect, but it's still a fun toy to play with. These aren't practical widgets as much as exploration of possibilities.
+		
+		Make art with the tools you have.
+		</p>
+		
+		<br>
+		<h2 class="circle">Colorful Circles</h2>
+		<p>My first experiment with random colors.  These circles (all members of the same CSS class) change to a random RGB color value.  Jquery's color animate smooths the transition. </p>
+		<div class="centerblock">
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+		</div>
+		<h2 class="block">Color me random!</h2>
+		<p>Mouseover the circles to see the goodness!	It's the same effect as above, but on a mouseover.  I like the effect of dragging the mouse back and forth through the blocks to leave a rainbow trail.<p>
+		<div class="centerblock">
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+		</div>
+		<h2>A little less random</h2>
+		<p>I wanted to keep the random effect, but control the palette available to choose from. This script randomly changes the characters in this text, but the colors are picked from an array I set. The effect is applied to text in the "colorful" div class. (yeah, I know that shades of grey are not exactly colorful..but I named it before I chose those). Other text is left alone. By picking grey tones that are close together, it created a soft rippling effect. And the randomness made it seem more mysterious than if it just cycled through those colors on a loop.<p>
+		<div class="centerblock">
+		<div>I'm happy being plain</div>
+		<div class='colorful' style="font-weight: bold">I want to be more interesting!</div>
+		<div>Skip me I'm boring.</div>
+		<div class='colorful' style="font-weight: bold">I'm not boring!</div>
+		</div>
+		<br>
+	</div>
+</body>
+</html>
