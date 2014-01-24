@@ -1,11 +1,13 @@
 body{
 	font-family: 'Open Sans', sans-serif;
-	background-color: #bdc3c7;
+	background-color: #F7F2E0;
 }
 #bodycontainer{
 	width: 800px; 
 	margin: 0 auto; 
-	background-color: white;
+	color: #FF0040;
+	background-color: #FFFFFF;
+	font-size: large;
 	/*-webkit-border-radius: 50px;*/
 	/*-moz-border-radius: 50px;*/
 	/*border-radius: 50px;*/
@@ -27,6 +29,7 @@ h1,h2{
     height: 50px;
     display:inline-block;
 }
+
 .circle {
     background: #f00;
     width: 250px;
@@ -37,6 +40,7 @@ h1,h2{
 .centerblock{
 	text-align:center;
 }
+
 #escapeHatch, #escapeHatch a{
 text-decoration:none;
 color:red;
@@ -44,3 +48,5 @@ position:fixed;
 right:0;
 bottom:0;
 }
+
+

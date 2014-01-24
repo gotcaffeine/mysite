@@ -1,16 +1,16 @@
 $(document).ready(function(){
-	$(".block").mouseover(function () {
+	$(".rand-mouse-col-block").mouseover(function () {
 		$(this).animate({
 			'backgroundColor': 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')'
 		}, 0);
 	});
-	$(".block").mouseleave(function () {
+	$(".rand-mouse-col-block").mouseleave(function () {
 
 		$(this).animate(
-			{backgroundColor: '#f00'}, 500);
+			{backgroundColor: 'transparent'}, 500);
 	});
 	function bcolorchanger() {
-        $('.circle').each(function () {
+        $('.rand-anim-col-block').each(function () {
             //animate to a random RBG color            
             $(this).animate({
                 'backgroundColor': 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')'
@@ -20,13 +20,13 @@ $(document).ready(function(){
 		}
 		
 	 //Create an array of the colors you want to pick from.  Add as many as you like! Use any of the formats below.
-    var colarray = ['#888888','#707070',"#505050"]
+    var colarray = ['#888888','#8e44ad','#888888','#888888','#888888']
     //set the animation speed of the colorchange
-    var animspeed = 200
+    var animspeed = 2000
     var colnums = colarray.length
     
     //We need to turn each character into an array of spans. Note that this strips out any other HTML code in a .coloful div....BE WARNED!
-    var $colorful = $('.colorful');
+    
     $('.colorful').each(function () {
         var html = $(this).text();
         var divlen = html.length;

@@ -1,0 +1,51 @@
+.tileblock {
+    background-color: #FF0040;
+	color: white;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+	overflow: hidden;
+	font-weight: 700;
+	text-align: justify;
+	text-transform:uppercase;
+	font-family: 'Arimo', sans-serif;
+	
+}
+.emptytile{
+	background-color: transparent;
+	display:inline-block;
+	 width: 200px;
+    height: 200px;
+}
+
+.bigtile{
+	width: 600px;
+	height:auto;
+	min-height:200px;
+	background-color: #f00;
+}
+
+.small-block {
+    width: 33.33%;
+    height: 33.33%;
+    float:left;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+.small-block:nth-of-type(3n+0) {
+    width: 33.34%;
+}
+	
+.small-block:nth-child(-n+3) {
+    height: 33.5%;
+}
+
+#bodycontainer{
+	max-width:820px;
+	margin: 0 auto; 
+	background-color: #FFFFFF;
+	font-size: x-small;
+	padding:50px;
+}
