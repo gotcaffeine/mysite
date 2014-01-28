@@ -27,7 +27,7 @@ $(document).ready(function(){
     
     //We need to turn each character into an array of spans. Note that this strips out any other HTML code in a .coloful div....BE WARNED!
     
-    $('.colorful').each(function () {
+    $('.colorful1').each(function () {
         var html = $(this).text();
         var divlen = html.length;
         var charArray = html.split('');
